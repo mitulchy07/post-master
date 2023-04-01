@@ -1,4 +1,6 @@
 import Brands from '@/components/home/Brands'
+import FAQS from '@/components/home/FAQS'
+import Footer from '@/components/home/Footer'
 import Services from '@/components/home/Services'
 import { Inter } from 'next/font/google'
 
@@ -8,7 +10,9 @@ export default function Home() {
   return (
     <main>
       <Brands></Brands>
-     <Services></Services>
+      <Services></Services>
+      <FAQS></FAQS>
+      <Footer></Footer>
     </main>
   )
 }
