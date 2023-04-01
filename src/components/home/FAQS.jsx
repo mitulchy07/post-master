@@ -14,7 +14,7 @@ const FAQS = () => {
                                 What Is Post-Master
                             </div>
                             <div className="collapse-content">
-                                <p>tabIndex={0} Post-Master is a technology-driven logistics company providing services ranging from SME product delivery services across the country to personal document, parcel delivery, and industrial logistics services to large corporate companies</p>
+                                <p> Post-Master is a technology-driven logistics company providing services ranging from SME product delivery services across the country to personal document, parcel delivery, and industrial logistics services to large corporate companies</p>
                             </div>
                         </div>
                         <div tabIndex={0} className="collapse collapse-arrow border shadow-xl border-base-300 bg-base-100 rounded-box mb-5">
