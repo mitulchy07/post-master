@@ -2,61 +2,69 @@ import Layout from "../Layout";
 
 export default function Services({ services }) {
   return (
-    <Layout>
-      <div className="container mx-auto py-20">
-        <h1 className="text-2xl font-bold mb-4 text-center">Our Services</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-20">
+    <div className="">
+      <Layout>
+        <div className="container mx-auto py-20">
+          <h1 className="text-2xl font-bold mb-4 text-center">Our Services</h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-20">
             {/* Card  Start*/}
-          <div className="shadow-lg rounded-md">
-            <figure>
-              <img src="/images/image%207.png" alt="" className="mb-4" />
-            </figure>
-            <div className="p-6 text-center">
-              <h2 className="text-xl font-bold mb-2">Parcel Delivery</h2>
-              <p>First-mile pickup and last-mile delivery services for individuals, small businesses and corporates.
-              </p>
+            <div className="shadow-lg rounded-md">
+              <figure>
+                <img src="/images/image%207.png" alt="" className="mb-4" />
+              </figure>
+              <div className="p-6 text-center">
+                <h2 className="text-xl font-bold mb-2">Parcel Delivery</h2>
+                <p>
+                  First-mile pickup and last-mile delivery services for
+                  individuals, small businesses and corporates.
+                </p>
+              </div>
             </div>
-          </div>
-          {/* Card End */}
+            {/* Card End */}
             {/* Card  Start*/}
-          <div className="shadow-lg rounded-md">
-            <figure>
-              <img src="/images/image%208.png" alt="" className="mb-4" />
-            </figure>
-            <div className="p-6 text-center">
-              <h2 className="text-xl font-bold mb-2">Large Shipping</h2>
-              <p>Special solution for large items and large number of deliveries
-              </p>
+            <div className="shadow-lg rounded-md">
+              <figure>
+                <img src="/images/image%208.png" alt="" className="mb-4" />
+              </figure>
+              <div className="p-6 text-center">
+                <h2 className="text-xl font-bold mb-2">Large Shipping</h2>
+                <p>
+                  Special solution for large items and large number of
+                  deliveries
+                </p>
+              </div>
             </div>
-          </div>
-          {/* Card End */}
+            {/* Card End */}
             {/* Card  Start*/}
-          <div className="shadow-lg rounded-md">
-            <figure>
-              <img src="/images/image%209.png" alt="" className="mb-4" />
-            </figure>
-            <div className="p-6 text-center">
-              <h2 className="text-xl font-bold mb-2">Customer Service</h2>
-              <p>Customized solutions according to your business needs
-              </p>
+            <div className="shadow-lg rounded-md">
+              <figure>
+                <img src="/images/image%209.png" alt="" className="mb-4" />
+              </figure>
+              <div className="p-6 text-center">
+                <h2 className="text-xl font-bold mb-2">Customer Service</h2>
+                <p>Customized solutions according to your business needs</p>
+              </div>
             </div>
-          </div>
-          {/* Card End */}
+            {/* Card End */}
             {/* Card  Start*/}
-          <div className="shadow-lg rounded-md">
-            <figure>
-              <img src="/images/image%2010.png" alt="" className="mb-4" />
-            </figure>
-            <div className="p-6 text-center">
-              <h2 className="text-xl font-bold mb-2">Logistics Support</h2>
-              <p> Experienced team support to resolve any logistics related issues
-              </p>
+            <div className="shadow-lg rounded-md">
+              <figure>
+                <img src="/images/image%2010.png" alt="" className="mb-4" />
+              </figure>
+              <div className="p-6 text-center">
+                <h2 className="text-xl font-bold mb-2">Logistics Support</h2>
+                <p>
+                  {" "}
+                  Experienced team support to resolve any logistics related
+                  issues
+                </p>
+              </div>
             </div>
+            {/* Card End */}
           </div>
-          {/* Card End */}
         </div>
-      </div>
-    </Layout>
+      </Layout>
+    </div>
   );
 }
 

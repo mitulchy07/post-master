@@ -5,7 +5,7 @@ import Layout from "../Layout";
 const FAQS = () => {
     return (
         <Layout>
-            <div>
+            <div className="py-10">
                 <h1 className="font-medium text-center text-5xl">Frequently Asked Questions</h1>
                 <div className="flex justify-between mt-20">
                     <div className="w-1/2 mr-10">
