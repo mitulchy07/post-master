@@ -1,22 +1,71 @@
-import Layout from "../Layout"
+import Layout from "../Layout";
 
-function Services({ services }) {
-    return (
-      <Layout>
-        <h1 className="text-2xl font-bold mb-4">Our Services</h1>
-        <div className="grid grid-cols-3 gap-4">
-          {services.map(service => (
-            <div key={service.id} className="p-4 border rounded-md">
-              <h2 className="text-lg font-medium mb-2">{service.title}</h2>
-              <p className="text-gray-600">{service.description}</p>
-              <button className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                Learn More
-              </button>
+export default function Services({ services }) {
+  return (
+    <Layout>
+      <div className="container mx-auto py-20">
+        <h1 className="text-2xl font-bold mb-4 text-center">Our Services</h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-20">
+            {/* Card  Start*/}
+          <div className="shadow-lg rounded-md">
+            <figure>
+              <img src="/images/image%207.png" alt="" className="mb-4" />
+            </figure>
+            <div className="p-6 text-center">
+              <h2 className="text-xl font-bold mb-2">Parcel Delivery</h2>
+              <p>First-mile pickup and last-mile delivery services for individuals, small businesses and corporates.
+              </p>
             </div>
-          ))}
+          </div>
+          {/* Card End */}
+            {/* Card  Start*/}
+          <div className="shadow-lg rounded-md">
+            <figure>
+              <img src="/images/image%208.png" alt="" className="mb-4" />
+            </figure>
+            <div className="p-6 text-center">
+              <h2 className="text-xl font-bold mb-2">Large Shipping</h2>
+              <p>Special solution for large items and large number of deliveries
+              </p>
+            </div>
+          </div>
+          {/* Card End */}
+            {/* Card  Start*/}
+          <div className="shadow-lg rounded-md">
+            <figure>
+              <img src="/images/image%209.png" alt="" className="mb-4" />
+            </figure>
+            <div className="p-6 text-center">
+              <h2 className="text-xl font-bold mb-2">Customer Service</h2>
+              <p>Customized solutions according to your business needs
+              </p>
+            </div>
+          </div>
+          {/* Card End */}
+            {/* Card  Start*/}
+          <div className="shadow-lg rounded-md">
+            <figure>
+              <img src="/images/image%2010.png" alt="" className="mb-4" />
+            </figure>
+            <div className="p-6 text-center">
+              <h2 className="text-xl font-bold mb-2">Logistics Support</h2>
+              <p> Experienced team support to resolve any logistics related issues
+              </p>
+            </div>
+          </div>
+          {/* Card End */}
         </div>
-      </Layout>
-    )
-  }
-  
-  export default Services
+      </div>
+    </Layout>
+  );
+}
+
+export async function getStaticProps() {
+  const res = await fetch("http://localhost:3000/api/services");
+  const services = await res.json();
+  return {
+    props: {
+      services,
+    },
+  };
+}
