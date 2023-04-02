@@ -5,22 +5,73 @@ import Layout from '../Layout';
 const Banner = () => {
   return (
     <Layout>
-      <div>
-        <div className='hero min-h-screen'>
-          <div className='hero-content flex-col lg:flex-row-reverse'>
-            <Image
-              src='/../public/images/imageBanner.png'
-              className='max-w-sm rounded-lg shadow-2xl'
-              width={400}
-              height={200}
-              alt='pic'
-            />
-            <div>
-              <h1 className='text-5xl font-bold'>
-                The Fastest Way To Send Anything To Anywhere.
-              </h1>
-              <button className='btn btn-primary my-5'>See More Details</button>
-            </div>
+      <div className='carousel w-full min-h-screen'>
+        <div id='slide1' className='carousel-item relative w-full'>
+          <Image
+            src='/../public/images/imageBanner.png'
+            width={200}
+            height={200}
+            layout='responsive'
+            alt='pic'
+          />
+          <div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
+            <a href='#slide4' className='btn btn-circle'>
+              ❮
+            </a>
+            <a href='#slide2' className='btn btn-circle'>
+              ❯
+            </a>
+          </div>
+        </div>
+        <div id='slide2' className='carousel-item relative w-full'>
+          <Image
+            src='/../public/images/BannerImage2.png'
+            width={200}
+            height={200}
+            layout='responsive'
+            alt='pic'
+          />
+          <div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
+            <a href='#slide1' className='btn btn-circle'>
+              ❮
+            </a>
+            <a href='#slide3' className='btn btn-circle'>
+              ❯
+            </a>
+          </div>
+        </div>
+        <div id='slide3' className='carousel-item relative w-full'>
+          <Image
+            src='/../public/images/BannerImage4.png'
+            width={200}
+            height={200}
+            layout='responsive'
+            alt='pic'
+          />
+          <div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
+            <a href='#slide2' className='btn btn-circle'>
+              ❮
+            </a>
+            <a href='#slide4' className='btn btn-circle'>
+              ❯
+            </a>
+          </div>
+        </div>
+        <div id='slide4' className='carousel-item relative w-full'>
+          <Image
+            src='/../public/images/BannerImage2.png'
+            width={200}
+            height={200}
+            layout='responsive'
+            alt='pic'
+          />
+          <div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
+            <a href='#slide3' className='btn btn-circle'>
+              ❮
+            </a>
+            <a href='#slide1' className='btn btn-circle'>
+              ❯
+            </a>
           </div>
         </div>
       </div>
