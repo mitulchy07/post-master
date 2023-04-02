@@ -17,21 +17,21 @@ export default function Testimonials() {
                                     <p>We have been working, growing together since the beginning of PostMasters journey. PostMastess parcel tracking and fast payment facility has made running my business easier than ever
                                         <br></br>
                                     <strong>Alex Ovi</strong>
-                                    <p>Amazon</p>    
+                                    <span>Amazon</span>    
                                     </p>
                                 </div>    
                                <div className=" p-4 text-center rounded-lg bg-slate-100">
                                     <p>We have been working, growing together since the beginning of PostMasters journey. PostMasters parcel tracking and fast payment facility has made running my business easier than ever
                                         <br></br>
                                     <strong>Alex Ovi</strong>
-                                    <p>Amazon</p>    
+                                    <span>Amazon</span>    
                                     </p>
                                 </div>    
                                <div className=" p-4 text-center rounded-lg bg-slate-100">
                                     <p>We have been working, growing together since the beginning of PostMasters journey. PostMasters parcel tracking and fast payment facility has made running my business easier than ever
                                         <br></br>
                                     <strong>Alex Ovi</strong>
-                                    <p>Amazon</p>    
+                                    <span>Amazon</span>    
                                     </p>
                                 </div>    
                          </div>
