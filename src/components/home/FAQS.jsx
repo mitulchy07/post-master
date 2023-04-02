@@ -7,8 +7,8 @@ const FAQS = () => {
         <Layout>
             <div className="py-10">
                 <h1 className="font-medium text-center text-5xl">Frequently Asked Questions</h1>
-                <div className="flex justify-between mt-20">
-                    <div className="w-1/2 mr-10">
+                <div className="lg:mt-20 gap-5">
+                    <div className="grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-5 ">
                         <div tabIndex={0} className="collapse collapse-arrow border shadow-xl border-base-300 bg-base-100 rounded-box mb-5">
                             <div className="collapse-title text-xl font-medium ">
                                 What Is Post-Master
@@ -25,17 +25,6 @@ const FAQS = () => {
                                 <p>tabIndex={0} attribute is necessary to make the div focusable</p>
                             </div>
                         </div>
-                        <div tabIndex={0} className="collapse collapse-arrow border shadow-xl border-base-300 bg-base-100 rounded-box ">
-                            <div className="collapse-title text-xl font-medium">
-                                What is your cancellation policy?
-                            </div>
-                            <div className="collapse-content">
-                                <p>tabIndex={0} attribute is necessary to make the div focusable</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="w-1/2" >
-
                         <div tabIndex={0} className="collapse collapse-arrow border shadow-xl border-base-300 bg-base-100 rounded-box mb-5">
                             <div className="collapse-title text-xl font-medium">
                                 Can other info be added to an invoice?
@@ -52,14 +41,23 @@ const FAQS = () => {
                                 <p>tabIndex={0} attribute is necessary to make the div focusable</p>
                             </div>
                         </div>
-                        <div tabIndex={0} className="collapse collapse-arrow border shadow-xl border-base-300 bg-base-100 rounded-box ">
+                        <div tabIndex={0} className="collapse collapse-arrow border shadow-xl border-base-300 bg-base-100 rounded-box mb-5">
                             <div className="collapse-title text-xl font-medium">
-                                How do I change my account email?
+                                How does billing work?
                             </div>
                             <div className="collapse-content">
                                 <p>tabIndex={0} attribute is necessary to make the div focusable</p>
                             </div>
                         </div>
+                        <div tabIndex={0} className="collapse collapse-arrow border shadow-xl border-base-300 bg-base-100 rounded-box mb-5">
+                            <div className="collapse-title text-xl font-medium">
+                                How does billing work?
+                            </div>
+                            <div className="collapse-content">
+                                <p>tabIndex={0} attribute is necessary to make the div focusable</p>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
