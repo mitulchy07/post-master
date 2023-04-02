@@ -19,6 +19,8 @@ const Navbar = () => {
             <MenuItems title="HOME" address="/"></MenuItems>
             <MenuItems title="ABOUT" address="/about" ></MenuItems>
             <MenuItems title="SERVICES" address="/services" ></MenuItems>
+            <MenuItems title="LOGIN" address="/login" ></MenuItems>
+            <MenuItems title="SIGN UP" address="/signup" ></MenuItems>
             <DarkModeSwitch />
           </div>
         </div>
