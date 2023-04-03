@@ -6,10 +6,10 @@ const FAQS = () => {
     return (
         <Layout>
             <div className="py-10">
-                <h1 className="font-medium text-center text-5xl">Frequently Asked Questions</h1>
+                <h1 className="text-3xl font-bold mb-4 text-center">Frequently Asked Questions</h1>
                 <div className="lg:mt-20 gap-5">
-                    <div className="grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-5 ">
-                        <div tabIndex={0} className="collapse collapse-arrow border shadow-xl border-base-300 bg-base-100 rounded-box mb-5">
+                    <div className="grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-5 dark:text-black">
+                        <div tabIndex={1} className="collapse collapse-arrow border shadow-xl border-base-300 bg-base-100 rounded-box mb-5">
                             <div className="collapse-title text-xl font-medium ">
                                 What Is Post-Master
                             </div>
@@ -17,7 +17,7 @@ const FAQS = () => {
                                 <p> Post-Master is a technology-driven logistics company providing services ranging from SME product delivery services across the country to personal document, parcel delivery, and industrial logistics services to large corporate companies</p>
                             </div>
                         </div>
-                        <div tabIndex={0} className="collapse collapse-arrow border shadow-xl border-base-300 bg-base-100 rounded-box mb-5">
+                        <div tabIndex={2} className="collapse collapse-arrow border shadow-xl border-base-300 bg-base-100 rounded-box mb-5">
                             <div className="collapse-title text-xl font-medium">
                                 Can I change my plan later?
                             </div>
@@ -25,7 +25,7 @@ const FAQS = () => {
                                 <p>tabIndex={0} attribute is necessary to make the div focusable</p>
                             </div>
                         </div>
-                        <div tabIndex={0} className="collapse collapse-arrow border shadow-xl border-base-300 bg-base-100 rounded-box mb-5">
+                        <div tabIndex={3} className="collapse collapse-arrow border shadow-xl border-base-300 bg-base-100 rounded-box mb-5">
                             <div className="collapse-title text-xl font-medium">
                                 Can other info be added to an invoice?
                             </div>
@@ -33,7 +33,7 @@ const FAQS = () => {
                                 <p>tabIndex={0} attribute is necessary to make the div focusable</p>
                             </div>
                         </div>
-                        <div tabIndex={0} className="collapse collapse-arrow border shadow-xl border-base-300 bg-base-100 rounded-box mb-5">
+                        <div tabIndex={4} className="collapse collapse-arrow border shadow-xl border-base-300 bg-base-100 rounded-box mb-5">
                             <div className="collapse-title text-xl font-medium">
                                 How does billing work?
                             </div>
@@ -41,7 +41,7 @@ const FAQS = () => {
                                 <p>tabIndex={0} attribute is necessary to make the div focusable</p>
                             </div>
                         </div>
-                        <div tabIndex={0} className="collapse collapse-arrow border shadow-xl border-base-300 bg-base-100 rounded-box mb-5">
+                        <div tabIndex={5} className="collapse collapse-arrow border shadow-xl border-base-300 bg-base-100 rounded-box mb-5">
                             <div className="collapse-title text-xl font-medium">
                                 How does billing work?
                             </div>
@@ -49,7 +49,7 @@ const FAQS = () => {
                                 <p>tabIndex={0} attribute is necessary to make the div focusable</p>
                             </div>
                         </div>
-                        <div tabIndex={0} className="collapse collapse-arrow border shadow-xl border-base-300 bg-base-100 rounded-box mb-5">
+                        <div tabIndex={6} className="collapse collapse-arrow border shadow-xl border-base-300 bg-base-100 rounded-box mb-5">
                             <div className="collapse-title text-xl font-medium">
                                 How does billing work?
                             </div>

@@ -5,10 +5,10 @@ export default function Services({ services }) {
     <div className="">
       <Layout>
         <div className="container mx-auto py-20">
-          <h1 className="text-2xl font-bold mb-4 text-center">Our Services</h1>
+          <h1 className="text-3xl font-bold mb-4 text-center">Our Services</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-20">
             {/* Card  Start*/}
-            <div className="shadow-lg rounded-md">
+            <div className="shadow-lg rounded-md dark:bg-yellow-400 dark:text-black">
               <figure>
                 <img src="/images/image%207.png" alt="" className="mb-4" />
               </figure>
@@ -22,7 +22,7 @@ export default function Services({ services }) {
             </div>
             {/* Card End */}
             {/* Card  Start*/}
-            <div className="shadow-lg rounded-md">
+            <div className="shadow-lg rounded-md dark:bg-yellow-400 dark:text-black">
               <figure>
                 <img src="/images/image%208.png" alt="" className="mb-4" />
               </figure>
@@ -36,7 +36,7 @@ export default function Services({ services }) {
             </div>
             {/* Card End */}
             {/* Card  Start*/}
-            <div className="shadow-lg rounded-md">
+            <div className="shadow-lg rounded-md dark:bg-yellow-400 dark:text-black">
               <figure>
                 <img src="/images/image%209.png" alt="" className="mb-4" />
               </figure>
@@ -47,7 +47,7 @@ export default function Services({ services }) {
             </div>
             {/* Card End */}
             {/* Card  Start*/}
-            <div className="shadow-lg rounded-md">
+            <div className="shadow-lg rounded-md dark:bg-yellow-400 dark:text-black">
               <figure>
                 <img src="/images/image%2010.png" alt="" className="mb-4" />
               </figure>

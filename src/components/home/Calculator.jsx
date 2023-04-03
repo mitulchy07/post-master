@@ -2,14 +2,15 @@ import Layout from "../Layout";
 
 export default function Calculator() {
   return (
+    <div className="dark:bg-purple-500 py-20">
     <Layout>
       <div className="container mx-auto">
-        <h1 className="lg:text-6xl text-2xl  font-bold text-center">
+        <h1 className="text-3xl font-bold mb-4 text-center">
           Cost Calculator
         </h1>
         <div className="p-12 w-3/5 mx-auto  flex flex-col gap-4">
           <div className="md:flex gap-10 justify-between">
-            <div>
+            <div className="w-1/2">
               <h3 className="text-xl font-medium ">
                 Product weight(Max:40 kg)
               </h3>
@@ -19,7 +20,7 @@ export default function Calculator() {
                 className="input input-bordered input-error w-full input-md mt-4 "
               />
             </div>
-            <div>
+            <div className="w-1/2">
               <h3 className="text-xl font-medium ">Cost of the Product</h3>
               <input
                 type="text"
@@ -29,7 +30,7 @@ export default function Calculator() {
             </div>
           </div>
           <div className="md:flex gap-10 justify-between ">
-            <div>
+            <div className="w-1/2">
               <h3 className="text-xl font-medium">Pickup Area</h3>
               <input
                 type="text"
@@ -37,7 +38,7 @@ export default function Calculator() {
                 className="input input-bordered input-error w-full input-md mt-4"
               />
             </div>
-            <div>
+            <div className="w-1/2">
               <h3 className="text-xl font-medium">Delivery Area</h3>
               <input
                 type="text"
@@ -54,5 +55,6 @@ export default function Calculator() {
         </div>
       </div>
     </Layout>
+    </div>
   );
 }
