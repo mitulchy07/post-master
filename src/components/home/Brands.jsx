@@ -2,6 +2,7 @@ import Image from "next/image";
 import Layout from "../Layout";
 
 
+
 const brands = [
   { name: "Brand 1", logo: "/images/commercial_works.webp" },
   { name: "Brand 2", logo: "/images/unilever.webp" },
