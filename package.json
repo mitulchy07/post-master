@@ -12,12 +12,16 @@
     "daisyui": "^2.51.5",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
+    "flowbite": "^1.6.4",
+    "flowbite-react": "^0.4.3",
     "next": "^13.2.4",
+    "next-auth": "^4.0.0-beta.7",
     "next-themes": "^0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.10.0",
+    "sqlite3": "^5.1.6",
     "vercel": "^28.18.3"
   },
   "devDependencies": {
